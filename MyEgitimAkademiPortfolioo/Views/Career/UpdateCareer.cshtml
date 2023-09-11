@@ -1,0 +1,23 @@
+﻿@model MyEgitimAkademiPortfolioo.Models.Career
+@{
+    ViewBag.Title = "UpdateCareer";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Çalışma Hayatım Güncelleme Ekranı</h2>
+
+
+<form method="post">
+
+    <label>Id</label>
+    @Html.TextBoxFor(x => x.CareerId, new {@class ="form-control"})
+    <label>Ünvan</label>
+    @Html.TextBoxFor(x => x.CareerName, new { @class = "form-control" })
+    <label>Açıklama</label>
+    @Html.TextAreaFor(x => x.CareerDescription,5,1, new { @class = "form-control" })
+    <label>Toplam Çalışma Süresi</label>
+    @Html.TextBoxFor(x => x.CareerWorkTime, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-outline-success">Güncelle</button>
+</form>

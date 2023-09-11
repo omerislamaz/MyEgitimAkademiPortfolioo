@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "AddCareer";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yeni Çalışma Bilgisi Ekleme Ekranı</h2>
+
+<form method="post">
+
+    <label>ID</label>
+    <input type="text"  class="form-control" name="CareerId" />
+    <label>Ünvan</label>
+    <input type="text"  class="form-control" name="CareerName" />
+    <br />
+    <label>Açıklama</label>
+    <textarea class="form-control" rows="4" name="CareerDescription" ></textarea>
+    <br />
+    <label>Toplam Çalışma Süresi</label>
+    <input type="text"  class="form-control" name="CareerWorkTime" />
+    <br />
+
+
+    <button class="btn btn-info">Kaydet</button>
+
+</form>

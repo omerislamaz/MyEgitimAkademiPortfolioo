@@ -1,0 +1,44 @@
+﻿@model MyEgitimAkademiPortfolioo.Models.QuickContact
+
+
+@{
+    ViewBag.Title = "UpdateQuickContact";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>UpdateQuickContact</h2>
+
+<form method="post">
+    <div>
+        <div>
+
+            <label>Id</label>
+            @Html.TextBoxFor(x => x.QuickContactId, new { @class = "form-control" })
+            <label>İsim Soyisim</label>
+            @Html.TextBoxFor(x => x.İsimSoyisim, new { @class = "form-control" })
+            <label>Başlık</label>
+            @Html.TextBoxFor(x => x.Resim, new { @class = "form-control" })
+            <label>Açıklama</label>
+            @Html.TextAreaFor(x => x.Aciklama, 5, 1, new { @class = "form-control" })
+            <label>Tanımlama</label>
+            @Html.TextBoxFor(x => x.Telefon, new { @class = "form-control" })
+            <label>Email</label>
+            @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+            <label>Behance</label>
+            @Html.TextBoxFor(x => x.Behance, new { @class = "form-control" })
+            <label>Linkedin</label>
+            @Html.TextBoxFor(x => x.Linkedin, new { @class = "form-control" })
+            <label>Facebook</label>
+            @Html.TextBoxFor(x => x.Facebook, new { @class = "form-control" })
+            <label>Twiter</label>
+            @Html.TextBoxFor(x => x.Twiter, new { @class = "form-control" })
+
+
+            <div>
+                <br />
+                <button class="btn btn-outline-success">Güncelle</button>
+            </div>
+        </div>
+    </div>
+
+</form>

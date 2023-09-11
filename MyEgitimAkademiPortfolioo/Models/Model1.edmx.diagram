@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7b4de03151644e4a8b66b6761a26658e" Name="Diagram1">
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Service" Width="1.5" PointX="2.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Testimonial" Width="1.5" PointX="0.75" PointY="3" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Category" Width="1.5" PointX="2.5" PointY="2.375" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Project" Width="1.5" PointX="4.25" PointY="2.875" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.sysdiagrams" Width="1.5" PointX="4.25" PointY="0.75" />
+        <AssociationConnector Association="MyPortfolioDbModel.FK_Project_Category" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Skill" Width="1.5" PointX="0.75" PointY="5.125" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Address" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Admin" Width="1.5" PointX="2.5" PointY="4.125" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Contact" Width="1.5" PointX="4.25" PointY="5.375" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.About" Width="1.5" PointX="9.875" PointY="1.375" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Education" Width="1.5" PointX="6.375" PointY="6.75" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.QuickContact" Width="1.5" PointX="7" PointY="3.125" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Career" Width="1.5" PointX="9.25" PointY="4" />
+        <EntityTypeShape EntityType="MyPortfolioDbModel.Customer" Width="1.5" PointX="0.75" PointY="7.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "AddCustomer";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>AddCustomer</h2>
+
+<form method="post">
+
+    <label> Id</label>
+    <input type="text" name="CustomerID" class="form-control" />
+    <br />
+
+    <label>Başlık</label>
+    <input type="text" name="Title" class="form-control" />
+    <br />
+
+    <label>Giriş</label>
+    <input type="text" name="Introduction" class="form-control" />
+    <br />
+
+    <label>Değer</label>
+    <input type="text" name="Deger" class="form-control" />
+    <br />
+
+    <label>Deger Açıklaması</label>
+    <textarea name="DegerDescription" class="form-control"></textarea>
+    <br />
+
+    <label>Resim Yolu 1</label>
+    <input type="text" name="Resim1" class="form-control" />
+    <br />
+    
+
+
+    <button class="btn btn-info">Kaydet</button>
+
+</form>

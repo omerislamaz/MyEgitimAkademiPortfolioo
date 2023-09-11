@@ -1,0 +1,31 @@
+﻿@model MyEgitimAkademiPortfolioo.Models.Education
+@{
+    ViewBag.Title = "UpdateEducation";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Eğitim Bilgileri Güncelleme Ekranı</h2>
+
+<form method="post">
+
+    <label>Eğitim ID</label>
+    @Html.TextBoxFor(x => x.EducationId, new { @class = "form-control" })
+
+
+    <label>Üniversite Adı Soyadı</label>
+    @Html.TextBoxFor(x => x.EducationName, new { @class = "form-control" })
+
+
+    <label>Açıklama</label>
+    @Html.TextBoxFor(x => x.EducationDescription, new { @class = "form-control" })
+
+
+    <label>Mezuniyet Yılı</label>
+    @Html.TextBoxFor(x => x.EducationGraduation, new { @class = "form-control" })
+
+
+    
+<br />  
+    <button class="btn btn-outline-success">Verileri Güncelle</button>
+</form>
+

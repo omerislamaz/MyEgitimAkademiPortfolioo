@@ -1,0 +1,57 @@
+﻿@model List<MyEgitimAkademiPortfolioo.Models.Career>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Kariyer Bilgi Ekranı</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Kariyer ID</th>
+        <th>Ünvan</th>
+        <th>Açıklama</th>
+        <th>Toplam Çalışma Yılı</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>@item.CareerId</td>
+    <td>@item.CareerName</td>
+    <td>@item.CareerDescription</td>
+    <td>@item.CareerWorkTime</td>
+
+    <td>
+        <a href="#" class="btn btn-outline-danger" data-toggle="modal" data-target="#deleteModal-@item.CareerId">Sil</a>
+    </td>
+
+    <div class="modal fade" id="deleteModal-@item.CareerId" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Kaydı Sil</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Bu kaydı silmek istediğinizden emin misiniz?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Hayır</button>
+                    <a href="/Career/DeleteCareer/@item.CareerId" class="btn btn-outline-danger">Evet</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <td><a href="/Career/UpdateCareer/@item.CareerId" class="btn btn-outline-success">Güncelle</a></td>
+
+</tr> 
+    }
+
+</table>
+
+<a href="/Career/AddCareer/" class="btn btn-outline-primary">Yeni Kayıt Ekle</a>

@@ -1,0 +1,18 @@
+﻿@model MyEgitimAkademiPortfolioo.Models.Service
+@{
+    ViewBag.Title = "UpdateService";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Servis Güncelleme Ekranı</h2>
+
+<form method="post">
+
+<label>Servis ID</label>
+@Html.TextBoxFor(x => x.ServiceId, new { @class = "form-control" })
+<label>Servis Adı Soyadı</label>
+@Html.TextBoxFor(x => x.ServiceName, new { @class = "form-control" })
+<br />
+
+<button class="btn btn-outline-success">Verileri Güncelle</button>
+</form>

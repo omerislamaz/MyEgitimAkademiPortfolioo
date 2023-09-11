@@ -1,0 +1,29 @@
+﻿@model MyEgitimAkademiPortfolioo.Models.Customer
+@{
+    ViewBag.Title = "UpdateCustomer";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>UpdateCustomer</h2>
+
+<form method="post">
+
+    <label>Id</label>
+    @Html.TextBoxFor(x => x.CustomerID, new { @class = "form-control" })
+    <label>Başlık</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <label>Açıklama</label>
+    @Html.TextAreaFor(x => x.Introduction, 5, 1, new { @class = "form-control" })
+    <label>Değer</label>
+    @Html.TextBoxFor(x => x.Deger, new { @class = "form-control" })
+    <br />
+    <label>Değer Açıklaması</label>
+    @Html.TextAreaFor(x => x.DegerDescription,5,1, new { @class = "form-control" })
+    <br />
+
+    <label>Resim Yolu</label>
+    @Html.TextBoxFor(x => x.Resim1, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-outline-success">Güncelle</button>
+</form>

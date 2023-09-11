@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "AddFeature";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Ana Ekran Bilgi Ekleme</h2>
+
+<form method="post">
+
+    <label>About Id</label>
+    <input type="text" name="AboutID" class="form-control" />
+    <br />
+
+    <label>İsim Soyisim</label>
+    <input type="text" name="NameSurname" class="form-control" />
+    <br />
+
+    <label>Başlık</label>
+    <input type="text" name="Title" class="form-control" />
+    <br />
+
+    <label>Introduction</label>
+    <input type="text" name="Introduction" class="form-control" />
+    <br />
+
+    <label>Description</label>
+    <textarea name="Description" class="form-control" ></textarea> 
+    <br />
+
+    <label>Resim Yolu</label>
+    <input type="text" name="AboutImage" class="form-control" />
+    <br />
+
+
+    <button class="btn btn-info">Kaydet</button>
+
+</form>
