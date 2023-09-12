@@ -41,3 +41,11 @@ Kişisel bir web sitesi olup, yetkili kullanıcıların içeriklerin kontrol ve 
 Kullanıcı adı ve şifre ile yönetim paneline erişim sağlayarak, panel içerisindeki menü yardımı ile ilgili içeriklerin yüklemesi, güncellemesi, denetimi ve gelen mesajların kontrolü sağlanır.
 
 Register Index ile sitenin yönetimi için başka kullanıcılarda eklenebilir.
+
+
+## Setup
+
+1. Projeyi klonlayın: `git clone https://github.com/sizin-kullanici-adi/sizin-proje-adiniz.git`
+2. Visual Studio veya Visual Studio Code gibi bir IDE kullanarak projeyi açın.
+3. Bağlantı dizesini düzenleyin: `appsettings.json` dosyasında SQL Server bağlantı dizesini güncelleyin.
+4. Veritabanını güncelleyin: Visual Studio'da "Package Manager Console" kullanarak Entity Framework migrations kullanarak veritabanını oluşturun ve güncelleyin.
