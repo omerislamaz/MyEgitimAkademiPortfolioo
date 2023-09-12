@@ -15,13 +15,13 @@ Kişisel bir web sitesi olup, yetkili kullanıcıların içeriklerin kontrol ve 
 
 ![Görüntü-2](https://i.ibb.co/FmD3p0H/001.png)
 
-![Görüntü-4](https://i.ibb.co/LtDD6k5/000.png)
+![Görüntü-4](https://i.ibb.co/5Y740ZG/002.png)
 
 ![Görüntü-5](https://i.ibb.co/SV6pmTL/003.png)
 
 ![Görüntü-3](https://i.ibb.co/JjTg37k/1.png)
 
-![Görüntü-6](https://i.ibb.co/qp5tcSC/2.png)
+![Görüntü-6](https://i.ibb.co/LtDD6k5/000.png)
 
 ![Görüntü-7](https://i.ibb.co/gP78GHw/3.png)
 
