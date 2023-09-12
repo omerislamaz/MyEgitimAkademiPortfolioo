@@ -11,7 +11,7 @@ Kişisel bir web sitesi olup, yetkili kullanıcıların içeriklerin kontrol ve 
 
 ## Screenshots
 
-[![image1](https://resimlink.com/cI_i8xtTby)
+![Görüntü-1](https://r.resimlink.com/cI_i8xtTby.png)
 
 
 ## Usage
