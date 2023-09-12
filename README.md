@@ -11,7 +11,9 @@ Kişisel bir web sitesi olup, yetkili kullanıcıların içeriklerin kontrol ve 
 
 ## Screenshots
 
-![Görüntü-1](https://ibb.co/jhzX9yV)
+![Görüntü-1](https://i.ibb.co/p2QF6fW/image.png)
+
+
 
 
 ## Usage
