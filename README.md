@@ -9,6 +9,10 @@ Kişisel bir web sitesi olup, yetkili kullanıcıların içeriklerin kontrol ve 
 * Db First
 * Ms SQL
 
+## Screenshots
+
+[![image](https://r.resimlink.com/cI_i8xtTby.png)](https://resimlink.com/cI_i8xtTby)
+
 
 ## Usage
 
